@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.box{
+    height: 100px;
+    width: 150px;
+    background-color: rgb(205, 90, 205);
+}
+.cover{
+    background-color:rgba(135, 207, 235, 0.438);
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-template-rows: repeat(3, 200px);
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+#c1:hover{
+    transform:rotate(445deg) ;
+    /* background-color: red; */
+    transition-property:all ;
+    transition-duration:3s ;
+    transition-timing-function: linear ;
+    /* transition-delay: 2s; */
+}
+
+#c2:hover{
+    /* transform:translate(0,40px); */
+    /* transform:translatex(40px) ; */
+    transform: translateY(40px);
+    /* transform: translateZ(20cm); */
+    /* background-color: red; */
+    transition-property:all ;
+    transition-duration:5s ;
+    transition-timing-function: linear ;
+    /* transition-delay: 2s; */
+}
+
+#c3:hover{
+    transform:skewy(45deg) ;
+    /* transform:skewx(45deg) ; */
+
+    transition-property:all ;
+    transition-duration:2s ;
+    transition-timing-function: linear ;
+    /* transition-delay: 1s; */
+}
+
+#c4:hover{
+    transform:scale(1.5) ;
+    /* transform:skewx(45deg) ; */
+
+    transition-property:all ;
+    transition-duration:2s ;
+    transition-timing-function: linear ;
+    /* transition-delay: 1s; */
+}
+
+#c5:hover{
+    transform:perspective(100px) rotatex(60deg) ;
+    
+
+    transition-property:all ;
+    transition-duration:2s ;
+    transition-timing-function: linear ;
+    /* transition-delay: 1s; */
+}
+
+#c6:hover{
+    transform:perspective(100px) rotatey(45deg) ;
+ 
+
+    transition-property:all ;
+    transition-duration:2s ;
+    transition-timing-function: linear ;
+    /* transition-delay: 1s; */
+}
+#c7:hover{
+    background-color: red;
+    /* transform:skewy(45deg) ; */
+    /* transform:skewx(45deg) ; */
+
+    transition-property:all ;
+    transition-duration:3s ;
+    transition-timing-function: linear ;
+    /* transition-delay: 1s; */
+}
+#c8:hover{
+    height: 150px;
+    width: 200px;
+    transition-property:all ;
+    transition-duration:2s ;
+    transition-timing-function: linear ;
+    /* transition-delay: 1s; */
+}
+#c9:hover{
+    transform:perspective(100px) translate3d(20px,20px,20px);
+    transition-property:all ;
+    transition-duration:2s ;
+    transition-timing-function: linear ;
+    /* transition-delay: 1s; */
+}

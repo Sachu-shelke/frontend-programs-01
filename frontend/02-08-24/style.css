@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 80%;
+    width: 80%;
+    padding: 10%;
+    border: 1px solid black;
+    background-color:rgb(7, 138, 253);
+    animation: myrotator 9s ease-in-out infinite;
+   
+}
+
+.b{
+    background-color: black;
+    
+}
+
+
+
+@keyframes myrotator{
+    from
+    {
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(760deg);
+    }
+}
+.container{
+    height: 300px;
+    width: 300px;
+}
+
+/* }
+.box:hover{
+    transform: rotate(360deg);
+    transition: transform 2s;
+    transform: all;
+    animation: rotate 2s infinite linear;
+
+} */
